@@ -1,0 +1,103 @@
+/* ===== Base ===== */
+body {
+    margin: 0;
+    font-family: "Inter", Arial, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+/* ===== App Container ===== */
+.app {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* ===== Upload ===== */
+.upload {
+    margin-bottom: 15px;
+}
+
+.upload input {
+    padding: 8px;
+}
+
+.upload button {
+    padding: 8px 12px;
+    margin-left: 5px;
+}
+
+/* ===== Chat ===== */
+.chat-box {
+    background: #020617;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    height: 400px;
+    overflow-y: auto;
+    padding: 15px;
+    text-align: left;
+}
+
+/* Messages */
+.chat-box div {
+    margin-bottom: 10px;
+}
+
+/* User vs Bot */
+.chat-box div b {
+    color: #38bdf8;
+}
+
+/* ===== Input Area ===== */
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #1e293b;
+    color: white;
+}
+
+/* Buttons */
+button {
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: none;
+    background: #3b82f6;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Secondary button */
+.secondary {
+    background: #475569;
+}
+
+/* Download button */
+.chat-box a button {
+    background: #22c55e;
+    margin-left: 5px;
+}
+
+.chat-box div {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
